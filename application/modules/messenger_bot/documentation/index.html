@@ -1,0 +1,1137 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Botinboxer Add-on | User Manual</title>
+
+    <meta name="description" content="most complete facebook marketing tools">
+    <meta name="author" content="">
+    <meta name="copyright" content="">
+    <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    <meta name="date" content="2019-02-14T00:00:00+02:00">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/docs/thumb.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="assets/js/jquery.js"></script>
+
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+
+    <script>
+        document.createElement('section');
+        var duration = '500',
+            easing = 'swing';
+    </script>
+    <script src="assets/js/script.js"></script>
+
+    <style>
+        html {
+            background-color: #FFFFFF;
+            color: #383838;
+        }
+        
+        ::-moz-selection {
+            background: #444444;
+            color: #DDDDDD;
+        }
+        
+        ::selection {
+            background: #444444;
+            color: #DDDDDD;
+        }
+        /* #documenter_sidebar #documenter_logo{background-image:url(assets/images/logo.png);} */
+        
+        a {
+            color: #0000FF;
+        }
+        
+        .btn {
+            border-radius: 3px;
+        }
+        
+        .btn-primary {
+            background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+            background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+            background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+            background-image: linear-gradient(top, #0088CC, #0044CC);
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+            border-color: #0044CC #0044CC #bfbfbf;
+            color: #FFFFFF;
+        }
+        
+        .btn-primary:hover,
+        .btn-primary:active,
+        .btn-primary.active,
+        .btn-primary.disabled,
+        .btn-primary[disabled] {
+            border-color: #0088CC #0088CC #bfbfbf;
+            background-color: #0044CC;
+        }
+        
+        hr {
+            border-top: 1px solid #EBEBEB;
+            border-bottom: 1px solid #FFFFFF;
+        }
+        
+        #documenter_sidebar,
+        #documenter_sidebar ul a {
+            background-color: #DDDDDD;
+            color: #222222;
+        }
+        
+        #documenter_sidebar ul a {
+            -webkit-text-shadow: 1px 1px 0px #EEEEEE;
+            -moz-text-shadow: 1px 1px 0px #EEEEEE;
+            text-shadow: 1px 1px 0px #EEEEEE;
+            text-align: left;
+            padding-left: 10px;
+        }
+        
+        #documenter_sidebar ul {
+            border-top: 1px solid #AAAAAA;
+        }
+        
+        #documenter_sidebar ul a {
+            border-top: 1px solid #EEEEEE;
+            border-bottom: 1px solid #AAAAAA;
+            color: #444444;
+        }
+        
+        #documenter_sidebar ul a:hover {
+            background: #444444;
+            color: #DDDDDD;
+            border-top: 1px solid #444444;
+        }
+        
+        #documenter_sidebar ul a.current {
+            background: #444444;
+            color: #DDDDDD;
+            border-top: 1px solid #444444;
+        }
+        
+        #documenter_copyright {
+            display: block !important;
+            visibility: visible !important;
+        }
+        
+        #documenter_sidebar ul li ul li a {
+            text-align: left;
+            padding-left: 30px;
+        }
+        
+        img.thumb {
+            border: 1px solid #ccc;
+        }
+        
+        ul li ul li ul li {
+            padding-left: 5px;
+        }
+        
+        ul li ul li ul li a {
+            border: none !important;
+        }
+        
+        ul li ul li ul li a {
+            background: #efefef !important;
+        }
+        
+        ul li ul li ul li a:hover {
+            background: none !important;
+            color: #000 !important;
+        }
+        
+
+        a.parent_link::before::hover {
+			color: #fff;
+        }
+        
+        .sec_level li a::before {
+            content: "o ";
+        }
+        
+        .sec_level li ul li a::before {
+            content: "";
+		}
+
+/*========================================================================*/
+		#documenter_sidebar ul li a:hover::before { color: #DDDDDD; }
+		#feature_list li { list-style: none !important; }
+		#feature_list li:before{font-family:"Font Awesome 5 Free";content:"\f0a4";font-size:14px;color:#444;margin:0 7px;}
+		 #documenter_sidebar ul li ul li a { border: none !important; padding-left: 35px; }
+		 #documenter_sidebar ul li ul li a::before {font-family:"Font Awesome 5 Free";content:"\f5da";font-size:10px;color: #444;margin: 0 7px; }
+		 #documenter_sidebar ul li .sub_sett li a{ background:#f7f7f7 !important; }
+		 #documenter_sidebar ul li .sub_sett li a:hover { color: #DDDDDD;background: #444444 !important; }
+		 #documenter_sidebar ul li .sub_sett li a::before:hover{ color: #444444; }
+		 #documenter_sidebar ul li .sub_sett li a.current { color: #DDDDDD !important; background: #444444 !important; }
+		 #documenter_sidebar ul li .sub_sett li a.current::before { color: #DDDDDD !important; background: #444444 !important; }
+		 #installation_guide li { list-style: none !important; }
+		 #installation_guide li::before{font-family:"Font Awesome 5 Free";content:"\f0a4";font-size: 14px;color:#444;margin:0 7px;}
+		#installation p { font-weight: 500; }
+		#installation img { margin-left: 7px;margin-top: 5px; }
+		#installation strong { color: #ec4a4a; }
+		#facebook_api_settings span { color: #7b2c2c; }
+		#facebook_api_settings > ul li { list-style: none;margin-left: 0px; }
+		#facebook_api_settings > ul li iframe { margin-left: 8px;margin-top: 10px; }
+		#facebook_api_settings > ul li a { padding: 5px; }
+		#facebook_api_settings > ul li::before{font-family: "Font Awesome 5 Free";content: "\f0a4";font-size:20px;color: #444;margin: 0 4px 0 3px;}
+		#facebook_api_settings > ul li iframe {margin-left: 2px;margin-top: 10px;}
+		#import_account > ul li { list-style: none; }
+		#import_account > ul li::before {font-family: "Font Awesome 5 Free";content: "\f0a4";font-size:20px;color: #444;margin: 0 4px 0 3px;}
+		#general_settings img { max-width: 1000px !important; }
+		#documenter_content .settings_head h3 { display: inline; font-size:14px;margin:18px 0 0;font-weight:700;text-decoration: underline; }
+		#documenter_content .settings_head  span { font-size:14px;margin:18px 0 0;font-weight:normal;text-decoration: none !important; }
+		#bot_settings_body > #botSettingsBodyFirst li { list-style: none!important; margin-left: 0px; }
+		#reply_template_sec { margin-left: 40px;margin-top:20px; }
+		#reply_template_sec li { margin-bottom:20px; }
+		#reply_template_sec li img { position: relative;left: 50px; }
+		#documenter_content #pmenu_desc li { list-style: none; }
+		.human_chat_settings #humanimg { width: 650px; }
+		.panel-default>.panel-heading {color: #333;background-color: #f5f5f5 !important;border-color: #ddd;}
+		.panel-heading {padding: 5px 10px;border-bottom: 1px solid transparent;border-top-left-radius: 3px;border-top-right-radius: 3px;background-color: #f5f5f5 !important;}
+		#documenter_content h4 {font-size: 14px;margin: 18px 0;font-weight: 700;text-align: center;}
+		.panel-body {padding: 0px;border-top: solid 1px #eee;}
+		.panel-group .panel-footer {border-top: 0;}
+		.panel-footer {padding: 10px 15px;background-color: #f5f5f5;border-top: 1px solid #ddd;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;}
+		.panel-default > a:hover { text-decoration: none !important; }
+		.panel-default > a:focus { text-decoration: none !important; }
+		.panel-default > a {color: inherit;}
+		.panel-body iframe { margin-bottom: -5px; }
+        .app_settings p { text-decoration: underline;display: inline; }
+        .app_settings p small{ text-decoration: none; }
+        .app_settings #app_settings_steps li { list-style: none !important;margin-bottom: 20px; }
+        .app_settings #app_settings_steps li > small { font-size: 13px !important; }
+        /*a#instructionBtn:hover { background: #444444 !important; color: #dddddd; }*/
+        a#instructionBtn:hover { background: #444444 !important; color: #dddddd; }
+        a#instructionBtn {     background: #d6d6d6 !important;border: solid 1px #aaa;font-weight: bold; }
+
+
+    </style>
+
+</head>
+
+<body class="documenter-project-botinboxer">
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"><img src="assets/images/docs/thumb.png" style="width: 130px;margin-left: 20px;"></a>
+        <ul id="documenter_nav">
+            <li>
+            	<a class='parent_link' class="current" href="#documenter_cover" title="Start"><i class="fas fa-hourglass-start "></i> &nbsp;Start</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#about_addon" title="About Addon"><i class="fa fa-bars"></i> &nbsp;About</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#installation" title="How to Install"><i class="fa fa-wrench"></i> &nbsp;How to Install</a>
+            </li>
+            <li>
+            	<a class='parent_link' href="#general_settings" title="General Settings"><i class="fa fa-cog"></i> &nbsp;General Settings</a>
+            </li>
+			<li>
+				<a class='parent_link' href="#facebook_api_settings" title="Facebook API Settings"><i class="fa fa-facebook-official"></i> &nbsp;Facebook API Settings</a>
+			</li>
+			<li>
+				<a class='parent_link' href="#import_account" title="Messenger Bot Dashboard"><i class="fas fa-file-import"></i> &nbsp;Import Account</a>
+			</li>	
+			<li>
+				<a class='parent_link' href="#enable_disable_bot" title="Facebook Lead"><i class="fa fa-toggle-on"></i> &nbsp;Enable/Disable Bot</a>
+			</li>	
+
+			<li>
+				<a class='parent_link' href="#domain_whitelist" title="Domain Whitelist"><i class="fa fa-list-alt"></i> &nbsp;Domain Whitelist</a>
+			</li>
+			<li>
+				<a class='parent_link' href="#bot_settings" title="Bot Settings"><i class="fa fa-snowflake-o"></i> &nbsp;Bot Settings</a>
+				<ul class="sub_sett">
+					<li><a href="#botSettings"> Bot Settings</a></li>
+					<li><a href="#getStarted"> Get Started Settings</a></li>
+					<li><a href="#botdisable"> Diable Bot</a></li>
+					<li><a href="#pmenu"> Persistent Menu</a></li>
+					<li><a href="#humanchatsettings"> Human Chat Settings</a></li>
+					<li><a href="#dltbot"> Delete Bot</a></li>
+					<li><a href="#markseen"> Enable Mark Seen</a></li>
+					<li><a href="#typing"> Typing On Setting</a></li>
+					<li><a href="#contact_location"> Contact & Location</a></li>
+					<li><a href="#subscribers"> Subscribers</a></li>
+					<li><a href="#errorLog"> Error Log Report</a></li>
+				</ul>
+			</li>
+			<li>
+				<a class='parent_link' href="#postback_manager" title="Post-back Manager"><i class="fas fa-crosshairs"></i> &nbsp;Post-back Manager</a>
+			</li>
+			<li>
+				<a class='parent_link' href="#cron_job_scheduler" title="Cron Job"><i class="fa fa-clock-o"></i> &nbsp;Cron Job/Scheduler
+				</a>
+			</li>
+			<li>
+				<a class='parent_link' href="#resources" title="Cron Job"><i class="fa fa-link"></i> &nbsp;Quick Resources
+				</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<div id="documenter_content">
+		<section id="documenter_cover">
+			<a class="root_a" href="#documenter_cover"><h1><i class="fa fa-book"></i> User Manual of Bot Inboxer - A EZ Inboxer Add-on : Multi-account & Multi-page Facebook Messenger Chat Bot</h1></a>
+			<hr>
+			<ul>
+				<li>Created: 24th January 2018</li>
+				<li>Latest update: 18th Nov 2018</li>
+				<li>By: <a href="https://codecanyon.net/item/fb-inboxer-master-facebook-messenger-marketing-software/19578006?ref=xeroneitbd">EZ Inboxer</a> Team | <a href="https://codecanyon.net/user/xeroneitbd/portfolio">xeroneitbd</a></li>
+				<li>Website: <a href="http://xeroneit.net/">http://xeroneit.net</a></li>
+				<li>Email: <a href="info@xeroneit.net/">info@xeroneit.net</a></li>
+				<li>Developed by : <a href="http://xeroneit.net">XerOne IT</a></li>
+			</ul>
+			<img class="thumb" src="assets/images/docs/cover.jpg">
+		</section>
+
+		<section id="about_addon">
+			<a class="root_a" href="#about_addon"><h1><i class="fa fa-bars"></i> About Botinboxer Add-on</h1></a><hr>
+			<p>Bot Inboxer - a EZ Inboxer add-on, is Facebook Messenger Bot application. You will be able to set your messenger bot for multiple pages. The bot can reply with text, post back button, quick reply, image, video, template, carousel template & so on. Setting up your messenger bot with Bot Inboxer will reply all your customers in messenger very fast.</p>
+			<br>
+			<h2><i class="fas fa-gifts"></i> Key Features</h2><hr>
+			<div class="row" id="feature_list">
+				<div class="col-md-6">
+					<ul>
+						<li>Multi Users</li>
+						<li>Multiple Facebook Accounts</li>
+						<li>Multiple Facebook Pages BOT</li>
+						<li>Multiple Reply Settings</li>
+						<li>Text, File, Image, Audio, Video, Gif Message</li>
+						<li>Generic Template.</li>
+						<li>Carousel Template</li>
+						<li>Post Back Buttons, Quick Reply Buttons</li>
+						<li>Button Of URL, Phone Numer.</li>
+						<li>Quick Reply button of user Email, Phone Number.</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<ul>
+						<li>Personalized Reply with First Name, Last Name.</li>
+						<li>Mark Seen Action enable option</li>
+						<li>Typing on Enable Option</li>
+						<li>Error reporting log of reply.</li>
+						<li>Different Persistent Menu add for Different locale.</li>
+						<li>Nested Persistent Menu</li>
+						<li>Your Brand URL set option in Persistent Menu</li>
+						<li>Collect Email From Quick Reply</li>
+						<li>Collect Phone Number From Quick Reply</li>
+						<li>Download Email & Phone Number As CSV</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="installation">
+			<a class="root_a" href="#installation"><h1><i class="fa fa-wrench"></i> Installation Instructions</h1></a><hr>
+			<div class="alert alert-danger">
+				<strong><i class="fa fa-exclamation-circle"></i> 
+					Bot Inboxer  is not a standalone app. As we already mentioned, it is an add-on of 
+					<a href="https://codecanyon.net/item/fb-inboxer-master-facebook-messenger-marketing-software/19578006?ref=xeroneitbd">EZ Inboxer</a>. 
+					So first requirement of installting Bot Inboxer  is to get & install 
+					<a href="https://codecanyon.net/item/fb-inboxer-master-facebook-messenger-marketing-software/19578006?ref=xeroneitbd">EZ Inboxer</a> (at least v4.2.1 required.):
+				</strong>
+			</div>
+
+			<p><i class="fa fa-link"></i> Installing Botinboxer Add-on is so Easy. Follow the below instructions to install the add-on.</p>
+			<ul id="installation_guide">
+				<li>Log into your <a href="https://codecanyon.net/item/fb-inboxer-master-facebook-messenger-marketing-software/19578006?ref=xeroneitbd">EZ inboxer</a> Application</li>
+				<li>Go to <b>Add-ons</b> Menu.</li>
+				<li>Click on <b>Upload New Add-on</b> button.</li>
+				<li>Upload Botinboxer Add-on Zip File. <br><img class="thumb" src="assets/images/docs/up_addons.png" alt=""></li><br>
+				<li>Now add-on has been uploaded and all you need to do is to activate the add-on. Click on the Activate button and activate with your purchase code. <br><br>
+					<div class="row">
+						<div class="col-xs-6"><img width="100%;" class="thumb" src="assets/images/docs/uploaded.png" alt=""></div>
+						<div class="col-xs-6"><img width="100%;" class="thumb" src="assets/images/docs/activating.PNG" alt=""></div>
+					</div>
+				</li>
+			</ul>
+		</section>
+
+		<section id="general_settings">
+			<a class="root_a"  href="#general_settings"><h1><i class="fa fa-cog"></i> General Settings</h1></a><hr>
+			<div>
+				<img class="thumb" src="assets/images/docs/gs.png" alt="">
+				<p><i class="fa fa-info-circle"></i> <b>Give access to user to set their own Facebook APP: </b>
+					<small>This section is for can users set their own app or they have to use the admin app.<b>We recommend to keep it as NO</b>.</small>
+				</p>
+				<p><i class="fa fa-info-circle"></i> <b>Persistent Menu: </b>
+					<small>The Persistent Menu is always available to the user. This menu should contain top-level actions that users can enact at any point. Having a persistent menu easily communicates the basic capabilities of your bot for first-time and returning users. The menu will automatically appear in a thread if the person has been away for a certain period of time and returns. <br>The following two options is only work when you give the module access of <img class="thumb" src="assets/images/docs/persistent_module.png" alt=""> from the Package Settings during creating a Package.</small>
+					
+				</p>
+				<div style="margin-left: 50px;">
+					<p><i class="fa fa-caret-right"></i> <b>Persistent menu copyright text: </b>
+						<small>Persistent Menu copyright text is to show the persistent menu name.</small>
+					</p>
+					<p><i class="fa fa-caret-right"></i> <b>Persistent menu copyright URL: </b>
+						<small>Persistent Menu URL refers the url when anyone click on the persistent menu it will redirect him/her into the given url.</small>
+					</p>
+				</div>
+				<p><i class="fa fa-info-circle"></i> <b>User login type: </b>
+					<small>This section refers how may an user import their facebook account into the application. There are two options which are describe below:</small>
+					<div style="margin-left: 50px;">
+						<p><i class="fa fa-caret-right"></i> <b>I want manage_page permission approval: </b>
+							<small>This option is for login with facebook button and have to submit the app for review. And user can import their account after the app gets approval.We higly recommend this option. </small>
+						</p>
+						<p><i class="fa fa-caret-right"></i> <b>I do not want manage_page permission approval. Keep user as tester of my app: </b>
+							<small>If the admin don't want the app aproval, can select this option to keep users as tester of the application. If this option is selected in the settings an app request section will appear (see the below image) instead of login with facebook button in the import account section. User will send app request to the admnin and after request approval of admin, user can import their account.</small><br>
+							<img class="thumb" src="assets/images/docs/neumeric_id.png" alt=""><br><br>
+							<img class="thumb" src="assets/images/docs/5.png" alt="">
+						</p>
+					</div>
+				</p>
+			</div>
+		</section>
+
+		<section id="facebook_api_settings">
+			<a class="root_a" href="#facebook_api_settings"><h1><i class="fa fa-facebook-official"></i> Facebook API Settings & App Approval</h1></a><hr>
+			<p><i class="fa fa-info-circle"></i> To start using Botinboxer Add-on, at first you've to set your Facebook API Settings Correctly and Submit your App for review.</p>
+			<div class="alert alert-info">
+				<span><i class="fa fa-exclamation-circle"></i> Keep in mind that, botinboxer add-on features will only work for admin if the facebook app is not approved, to work for all facebook app must be approved. Facebook App needed <b>manage_pages & page_messaging permissions</b> to work for all. Follow this for app submission <b><a href="http://xeroneit.net/blog/bot-inboxer-app-approval">BOT Inboxer Facebook APP Approval Instructions</a></b></span>
+			</div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="app_settings">
+                        <p><b><i class="fa fa-bullhorn"></i> Instruction of Facebook API Settings: </b></p><br>
+                        <small style="font-size: 13px !important;"><i class="fa fa-check-circle"></i> After Successful installation, now you've to set facebook app for botinboxer add-on. This section will guide you create and set facebook successfully into botinboxer add-on. Follow the below steps as given: </small>
+                        <ul id="app_settings_steps">
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Go to <b>Messenger Bot -> Facebook API Settings</b> menu to get started. Then click on <b>Add</b> button.</small><br>
+                               <img src="assets/images/docs/app_settings/1.png" class="thumb" alt="">
+                            </li>
+                        </ul>
+
+                        <ul id="app_settings_steps">
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>A Form will appear with information like below image. This is the form to add your facebook app information, you will get app domain, site url, valid oauth redirect uris needed to create facebook app here. Copy the urls and create your facebook app following the process below. You can create multiple app and can add but only one can be enabled at a time.</small><br>
+                                <img src="assets/images/docs/app_settings/3.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Create your own facebook app and put <b>APP ID and APP Secret</b> here. System will take care of everything else. </small>
+                            </li>
+                            <li><strong><i class="fa fa-bars"></i> How to create facebook app and get API ID & APP Secret?</strong></li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Login to <b><a href="https://developers.facebook.com/">https://developers.facebook.com/</a></b> using your facebook account and click on <b>Add a new app</b>. </small><br>
+                                <img src="assets/images/docs/app_settings/4.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Give a <b>"Display Name"</b> and click on <b>Create App ID</b> button.</small><br>
+                                <img src="assets/images/docs/app_settings/5.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Go to <b>Settings -> Basic</b> menu from sidebar. Here you will find your <b>APP ID & APP Secret</b> of your app. Put your Application Domain in <b>"App Domains"</b> field and also put your application privacy policy URL and Terms of Service URL in the corresponding filed (See the image below). Set your app icon and Select <b>Messaging</b> from Category section.</small><br>
+                                <img src="assets/images/docs/app_settings/6.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Scroll down and click on <b>"Add Platform"</b> button, it will bring the following popup. Select <b>"Website"</b> from popup.</small><br>
+                                <img src="assets/images/docs/app_settings/7.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>It will bring an input field of <b>"Site URL"</b>. Put your site url in the field and click on <b>Save Changes</b> button.</small><br>
+                                <img src="assets/images/docs/app_settings/8.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Now click on <b>Product</b> menu from sidebar. Scroll down and you've to setup first facebook login, click on <b>Set Up</b>.</small><br>
+                                <img src="assets/images/docs/app_settings/9.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>It will bring the following page, click on <b>Web</b>.</small><br>
+                                <img src="assets/images/docs/app_settings/10.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Click on <b>save</b> button.</small><br>
+                                <img src="assets/images/docs/app_settings/11.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Click on <b>Facebook Login -> Settings</b> menu. Then put your all three <b>Valid OAuth redirect URIs</b> in the Valid OAuth Redirect URIs field (see the image). Then click on <b>Save Changes</b> button.</small><br>
+                                <img src="assets/images/docs/app_settings/12.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Now Go to <b>Product</b> From the sidebar menu. From there you need to set up your webhook. Click on <b>Set Up</b> button of the webhooks (See below image).</small><br>
+                                <img src="assets/images/docs/app_settings/13.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>It will bring following page. Select Page option from Drop-down and then click on <b>Subscribe to this object</b> button (see below image).</small><br>
+                                <img src="assets/images/docs/app_settings/14.png" class="thumb" alt="">
+                            </li>
+
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>A modal will appear like below image. Put the Callback URL and Verify token into the corresponding filed. Then click on <b>Verify and Save</b> button.</small><br>
+                                <img src="assets/images/docs/app_settings/15.png" class="thumb" alt="">
+                            </li>                            
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Now Click on <b>Product</b> from sidebar again and now you've to setup <b>Messenger</b>. Click on <b>Set Up</b> of the Messenger section.</small><br>
+                                <img src="assets/images/docs/app_settings/16.png" class="thumb" alt="">
+                            </li>                            
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Scroll Down to the Webhook Section and click on <b>Edit Events</b> button.</small><br>
+                                <img src="assets/images/docs/app_settings/17.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Select the four Subscription fileds as like below image and then click <b>Save</b> button.</small><br>
+                                <img src="assets/images/docs/app_settings/18.png" class="thumb" alt="">
+                            </li>
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Now Go  to <b>Settings -> Basic</b> from sidebar. Copy <b>App ID</b> and <b>App Secret</b> and paste them into the application's corresponding <b>Facebook App ID & Facebook App secret</b> field. Then click on <b>Save</b> button.</small><br>
+                                <img width="100%" src="assets/images/docs/app_settings/19.png" class="thumb" alt=""><br><br>
+                                <img width="100%" src="assets/images/docs/app_settings/20.png" class="thumb" alt="">
+                              
+                            </li>  
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Now import your account by click on <b>"f"</b> icon as shown in below image.</small><br>
+                                <img src="assets/images/docs/app_settings/21.png" class="thumb" alt="">
+                            </li>  
+                            <li>
+                                <i class="fa fa-caret-right"></i> <small>Click on Login With Facebook button to complete account import.</small><br>
+                                <img src="assets/images/docs/app_settings/22.png" class="thumb" alt="">
+                            </li> 
+                        </ul>
+                    </div>
+                </div>
+                <div  class="col-xs-12">
+                    <div>
+                        <p><strong><i class="fa fa-youtube-play"></i> Video Tutorial On How to Complete Facebook API Settings</strong><hr>
+                        <small style="font-size: 13px !important;"><i class="fa fa-info-circle"></i> If you think that the above guidelines are not enough for you, you can also watch our Video tutorial on Facebook API Settings.</small></p>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                       <iframe width="100%" height="400" src="https://www.youtube.com/embed/o_-lqnk8Bqk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div  class="col-xs-12">
+                    <div><br><br><br><br>
+                        <p><strong><i class="fas fa-book-reader"></i> Instructions On How to Submit Your Facebook APP for Review to Facebook</strong><hr>
+                        <small style="font-size: 13px !important;"><i class="fa fa-info-circle"></i> After Successfully completed the facebool app settings, now you've to submit your app for review. Follow the instruction step by step that given in the below link and submit your app for review. Click on the below button.</small></p>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-xs-offset-3">
+                    <a id="instructionBtn" target="_blank" href="http://xeroneit.net/blog/bot-inboxer-app-approval" class="btn btn-default">BOT Inboxer Facebook APP Approval Instructions</a>
+                </div>
+            </div><br><br>
+		</section>
+
+		<section id="import_account">
+			<a class="root_a" href="#import_account"><h1><i class="fas fa-file-import"></i> Messenger Bot Account Import</h1></a><hr>
+			<p><i class="fa fa-check"></i> After Completing Facebook API Settings Properly, Now You've to Import your Facebook Account.</p>
+			<ul>
+				<li>Clicking Import Account Menu will bring you a button named <b>Login with Facebook</b>, Simply Clicking it will 	start importing your Facebook account. <br>
+					<div>
+						<img class="thumb" src="assets/images/docs/click_import.png" alt="">
+						<img class="thumb" style="margin-left: 15px;" src="assets/images/docs/login_with_facebook.png" alt="">
+					</div>
+				</li><br>
+				<li>Allow the permission as the picture given below and You can choose privary friends or public. It privacy is set to "Friends" the posts will be only visible to your friends. If you set it to "Public" then the posts will be visible to everyone. You should use "Public" for marketing purposes. <br>
+					<img class="thumb" width="500px;" src="assets/images/docs/7.png" alt="">
+					<img class="thumb" style="margin-left: 15px;" width="500px;" height="400px" src="assets/images/docs/8.png" alt="">
+				</li><br>
+				<li>Finally your account is imported now !!! You will see your pages. <br>
+					<img class="thumb" src="assets/images/docs/imported.png" alt="">
+				</li>
+			</ul>
+		</section>
+
+		<section id="enable_disable_bot">
+			<a class="root_a" href="#enable_disable_bot"><h1><i class="fas fa-toggle-on"></i> How to Enable/Disable Bot</h1></a><hr>
+			<p><i class="fa fa-flag"></i> In Import Account Menu You Will find your imported accounts and pages. First you need to enable bot for a particular page to create bot for that page.</p>
+			<img src="assets/images/docs/enable_disable.png" alt="">
+		</section>
+
+		<section id="domain_whitelist">
+			<a class="root_a" href="#domain_whitelist"><h1><i class="fa fa-link"></i> Domain Whitelist</h1></a><hr>
+			<p><i class="fa fa-window-restore"></i> You can add buttons and can put your link when bot replies your visitors. To put a link you need to whitelist the domain. Suppose you will use several website links in your bot xyz.com,123.com,abc,com etc. You can add these domains to page whitelist now. It's not mandatory because when you create a bot and put a link that is not whitelisted system will also whitelist it automatically.</p>
+			<div class="row">
+				<div class="col-xs-6">
+					<img width="100%" class="thumb" src="assets/images/docs/add_whitelist.png" alt="">
+				</div>
+				<div class="col-xs-6">
+					<img width="100%" class="thumb" src="assets/images/docs/whitelisted.png" alt="">
+				</div>
+			</div>
+		</section>
+
+		<section id="bot_settings">
+			<a class="root_a" href="#bot_settings"><h1><i class="fas fa-robot"></i> Bot Settings</h1></a><hr>
+			<p><i class="fa fa-check-circle"></i> In Bot Settings Section, You'll See all of your Bot Enabled Pages with the settings options.</p>
+			<img src="assets/images/docs/bot_settings.png" class="thumb" alt=""><br>
+
+			<section id="botSettings">
+				<div class="bot_setting_feature">
+					<div class="settings_head">
+							<p><h3><i class="fa fa-window-restore"></i> Bot Settings Instructions: </h3><span>&nbsp;Click on the Bot Settings menu to see the current bot settings and you can See,edit or delete any existing bot settings, even you can search bot settings if you want. Also You can add a new bot setting by click on <b>Add Bot Settings</b> button at the top right corner.</span></p>
+							<img src="assets/images/docs/bot_setting_list.png" class="thumb" alt="">
+					</div><br>
+					<div id="bot_settings_body">
+						<ul id="botSettingsBodyFirst">
+							<li><i class="fa fa-caret-right"></i> 
+								<span><b>Add Bot Settings:</b> Click On the <b>Add Bot Settings</b> button to get the settings form to add a new bot settings. </span><br>
+								<img  class="thumb" src="assets/images/docs/bot_setting_form.jpg"><br>
+								
+								<div class="row">
+									<div class="col-xs-6">
+										<p><i class="fa fa-info-circle"></i> In the bot settings form there are four types of replies(see the above image): </p>
+										<ul style="margin-left: 45px;margin-top:-14px;">
+											<li>
+												<i class="fa fa-bullhorn"></i> <b>Reply: </b>
+												<small>This is keyword based reply. Replying Keywords must be comma separated.</small>
+											</li>
+											<li>
+												<i class="fa fa-bullhorn"></i> <b>Post-back: </b>
+												<small>This reply is button click reply. For this you must have a Post-back ID which you've to create from Post-back Manager Menu. [In postback template when you are creating a postback reply template, this postback will come during BOT settings in drop down menu if you select button type as postback.] You can see the video how it works 
+													<a target="_blank" href="https://www.youtube.com/watch?v=6taVkjG03fQ">How Postback Manager & Postback reply Works for BOT Inboxer</a>
+												</small>
+											</li>
+											<li>
+												<i class="fa fa-bullhorn"></i> <b>No Match: </b>
+												<small>If the bot found no matched message then it'll send a generic reply.</small>
+											</li>
+											<li>
+												<i class="fa fa-bullhorn"></i> <b>Get Started: </b>
+												<small>It will Generate replies when users click on the Get Started button.</small>
+											</li>
+										</ul>
+									</div>
+									<div class="col-xs-6">
+										<br><iframe width="100%" height="300" src="https://www.youtube.com/embed/QX-i1zC86fk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+									</div>
+								</div>
+							</li>
+							<p><i class="fa fa-info-circle"></i> There are Ten types of reply templates in the bot settings(see the below image):</p>
+							<img src="assets/images/docs/reply_template_list.png" class="thumb" alt="">
+							<div class="row">
+								<ul id="reply_template_sec" style="">
+									<div class="col-xs-4">
+										<li><i class="fa fa-bullhorn"></i> <b>Text: </b>
+											<small>Text Reply Template is to send simple text reply with message.</small><br>
+											<img class="thumb" src="assets/images/docs/preview/1.png" alt="">
+										</li>
+										<li><i class="fa fa-bullhorn"></i> <b>Video: </b>
+											<small>Video Reply Template is to send Reply with a video that will play on messenger.</small><br><br>
+											<img class="thumb" src="assets/images/docs/preview/4.png" alt="">
+										</li>
+										<li><i class="fa fa-bullhorn"></i> <b>Text With Button: </b>
+											<small>Text With Button Reply Template is to Send Reply With Text and Buttons [every button requires a post-back ID for identification and you need to add another bot settings to handle that post-back button]</small><br>
+											<img class="thumb" src="assets/images/docs/preview/7.png" alt="">
+										</li>
+										<li><i class="fa fa-bullhorn"></i> <b>List: </b>
+											<small>List Reply Template is to Send reply with a list of links with thumbnail and link action.</small><br>
+											<img class="thumb" src="assets/images/docs/preview/10.png" alt="">
+										</li>
+									</div>
+									<div class="col-xs-4">
+										<li><i class="fa fa-bullhorn"></i> <b>Image: </b>
+											<small>Image Reply Template is to send Reply with an image.</small><br>
+											<img src="assets/images/docs/preview/2.png" alt="" class="thumb">
+										</li>
+										<li><i class="fa fa-bullhorn"></i> <b>File: </b>
+											<small>File Reply Template is to send reply with an attachment.</small><br><br>
+											<img class="thumb" src="assets/images/docs/preview/5.png" alt="">
+										</li>
+										<li><i class="fa fa-bullhorn"></i> <b>Generic Template: </b>
+											<small>Generic Template is to send reply with Single image,image action URL,title,subtitle and buttons [either button can be a post-back button or can open a website URL]</small><br>
+											<img class="thumb" src="assets/images/docs/preview/8.png" alt="">
+										</li>
+									</div>
+									<div class="col-xs-4">
+										<li><i class="fa fa-bullhorn"></i> <b>Audio: </b>
+											<small>Audio Reply Template is to send Reply with an audio that will play on messenger.</small><br>
+											<img class="thumb" src="assets/images/docs/preview/3.png" alt="">
+										</li>
+										<li><i class="fa fa-bullhorn"></i> <b>Quick Reply: </b>
+											<small>Reply with text and buttons [every button requires a post-back ID for identification and you need to add another bot settings to handle that post-back button]</small><br>
+											<img class="thumb" src="assets/images/docs/preview/6.png" alt="">
+										</li>
+										<li><i class="fa fa-bullhorn"></i> <b>Carousel: </b>
+											<small>Carousel Reply Template is to send reply with an Array of generic templates - multiple generic templates display as slider.</small><br><br>
+											<img class="thumb" src="assets/images/docs/preview/9.png" alt="">
+										</li>
+									</div>
+								</ul>
+							</div>
+						</ul>
+					</div>
+					<div class="alert alert-info" style="padding: 10px 0;">
+						<p style="margin: 0 10px;"><i class="fa fa-exclamation-circle"></i> You can add maximum 3 reply templates in a bot setting.</p>
+					</div>
+				</div><br>
+			</section>
+
+			<section id="getStarted">
+				<div class="settings_head">
+					<p>
+						<h3><i class="fa fa-window-restore"></i> Get Started Settings: </h3><small>&nbsp;If you enable this, When someone come to your page first time chat box will pop up and a button called "Get Started" will appear. You can add the action reply for clicking the button in "Bot Settings" (described beow).</small>
+					</p>
+					<div class="row">
+						<div class="col-xs-4">
+							<img class="thumb" src="assets/images/docs/get_started.png" class="thumb" alt="">
+						</div>
+						<div class="col-xs-8">
+							<iframe width="100%" height="400" src="https://www.youtube.com/embed/TPCntfknIFA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div><br>
+			</section>
+
+			<section id="botdisable">
+				<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Disable Bot: </h3><small>&nbsp;If you want to disable the bot of a page, you can do it by click on disable bot button.</small>
+						</p>
+						<img style="position: relative;left: 100px;" src="assets/images/docs/disable_bot.png" class="thumb">
+				</div><br>
+			</section>
+
+			<section id="pmenu">
+				<div class="persistent_menu_settings">
+					<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Persistent Menu [Requires "Get Started" Button]: </h3><br>
+							<small><i class="fa fa-caret-right"></i> &nbsp;The Persistent Menu is always available to the user. This menu should contain top-level actions that users can enact at any point. Having a persistent menu easily communicates the basic capabilities of your bot for first-time and returning users. The menu will automatically appear in a thread if the person has been away for a certain period of time and returns. <br>You can create multi-level (nested) persistent menu and also can have different menu for different locale.</small><br><br>
+							<div class="row">
+								<div class="col-xs-5">
+									<img src="assets/images/docs/pr1.png" class="thumb" alt="">
+								</div>
+								<div class="col-xs-7">
+									<iframe width="100%" height="350" src="https://www.youtube.com/embed/O9dEP3jfbww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								</div>
+							</div><br>
+
+							<p><i class="fa fa-caret-right"></i> 
+								<small>Click On the Persistent Menu button to get started and click on <b>create persistent menu</b> button to create persistent menu.</small>
+							</p>
+							<div class="row">
+								<div class="col-xs-6"><img style="margin-left:100px;" class="thumb" src="assets/images/docs/pmenu.png" alt=""></div>
+								<div class="col-xs-6"><img style="margin-left:-40px;" width="100%" class="thumb" src="assets/images/docs/create_pmenu.png" alt=""></div>
+							</div>
+							<p><i class="fa fa-caret-right"></i> <small>You'll get a form like as below image.</small></p>
+							<img src="assets/images/docs/pmenu_form.png" class="thumb" alt=""><br><br>
+
+							<ul id="pmenu_desc" style="margin-left: 50px;">
+								<li>
+									<i class="fa fa-info-circle"></i> <b>Locale: </b>
+									<small>This field is to set your menu language on which language you want to publish the persistent menu.</small>
+								</li>
+								<li>
+									<i class="fa fa-info-circle"></i> <b>Composer Input Disabled: </b>
+									<small>If it is set as disabled then no one can write a message in the typing area and can't send a message.</small>
+								</li>
+								<li>
+									<i class="fa fa-info-circle"></i> <b>Level-1 Menu: </b>
+									<small>You can add maximum three menu of level-1 by click on <img src="assets/images/docs/level_1menu.png" class="thumb"> button. There are three types of menu: </small><br><img style="margin:10px 0;" width="840px" src="assets/images/docs/levelmenu.png" class="thumb">
+									<ul style="margin-left: -35px;">
+										<li>
+											<i class="fa fa-caret-right"></i> <b>Web URL: </b>
+											<small>This is refers to Web based menu and you've to put the URL for the menu.</small>
+										</li>
+										<li>
+											<i class="fa fa-caret-right"></i> <b>Post-back: </b>
+											<small>This is post-back based menu. If you select as post-back, your all post-back templated ID will be shown there but you must have postback ID. You'll can add post-back with persistent menu but you must have a Post-back ID which you can create from <b>Post-back Manager</b> Menu.</small>
+										</li>
+										<li>
+											<i class="fa fa-caret-right"></i> <b>Nested: </b>
+											<small>If you want to create nested persistent menu for level-1 menu, then select nested option and level-2 menu form will appear for the level-1 menu and if you want nested menu for level-2 menu then select nested option from level-2 menu. [Remember you can add maximum three level-1 menu and maximum five nested level-2 menu for a level-1 menu and can add maximum five level-3 menu for level-2 menu.]</small><br>
+											<img width="100%" src="assets/images/docs/pmenu_levels.png" class="thumb" alt="">
+										</li>
+									</ul>
+								</li><br>
+								<li>
+									<i class="fa fa-info-circle"></i> <small>After Completed Creating Persistent Menu, you've to publish this menu to see this. Click on the <b>Publish Persistent Menu</b> to publish the menu.[If you edit any existing persistent menu, you've also publish the menu again to publish updated menu.]</small><br>
+									<img width="100%" src="assets/images/docs/publish_pmenu.png" class="thumb" alt="">
+								</li>
+							</ul>
+						</p>
+
+						<div class="alert alert-danger">
+							<p style="color:#4a4a4a;"><i class="fa fa-info-circle"></i> <b>You Must have to set a persistent menu for "Default" Locale and publish it. It's mandatory by Facebook.</b></p>
+						</div>
+
+
+						<div class="alert alert-info">
+							<p style="color:#4a4a4a;"><i class="fa fa-info-circle"></i> <b>Persistent Menu For Member User: </b><small>If You have enabled "Persistent Menu Copyright" module for the user. That means the user can create 2 level 1 menu and the 3rd one will be added automatically by system taking the settings from <b>Messenger Bot > General Settings.</b>
+							If the user have assigned <b>Persistent Menu Copyright</b> module and the settings are blank then system takes product name and app url by default.</small></p>
+						</div>
+					</div>
+				</div><br>
+			</section>
+
+			<section id="humanchatsettings">
+				<div class="human_chat_settings">
+					<div class="settings_head">
+							<p>
+								<h3><i class="fa fa-window-restore"></i> Human Chat Settings: </h3><br><br>
+
+								<small><i class="fa fa-caret-right"></i> Sometimes subscribers don't want to chat with a robot. They want to chat with a human with their query. This setting is for giving them the option with whom he/she wants to talk (see Fig-0). <br></small>
+
+								<small><i class="fa fa-caret-right"></i> First of all, you have to set bot settings for human/robot button. In the bot settings form (see the below image), select text with button from template type and at the bottom provide button name and select Button type as <b>Chat with Human/Chat with Robot</b> (see the below image)</small><br><br>
+								
+								<div class="row">
+									<div class="col-xs-7">
+										<img id="humanimg" src="assets/images/docs/humanrobotbutton.png" alt="" class="thumb"><br><br>
+									</div>
+									<div class="col-xs-5">
+										<iframe width="100%" height="500" src="https://www.youtube.com/embed/AEq1kM8J5D8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+									</div>
+								</div>
+
+								<small><i class="fa fa-caret-right"></i> Click on <b>Human Chat Settings</b> button (see Fig-1). A modal will appear (see Fig-2). In the modal, you will see a notification email field where you've to set the receiver email. When a user clicks on human button (see Fig-0), an email will be sent to the given email address to notify the admin that he/she wants to talk with a human.  
+								</small><br>
+							</p>
+							<div class="row">
+								<div class="col-xs-3"><img class="thumb" src="assets/images/docs/human_fb.PNG" alt=""></div>
+								<div class="col-xs-2"><img style="margin-left:10px;" class="thumb" src="assets/images/docs/chat_with_human.png" alt=""></div>
+								<div class="col-xs-5"><img style="margin-left:200px;" width="100%" class="thumb" src="assets/images/docs/human_chat.PNG" alt=""></div>
+							</div>
+							<p>
+								<small><i class="fa fa-caret-right"></i> When a user clicks on human/robot button (see Fig-0), it will automatically reply with default <b>chat with human/chat with robot</b> templates (see below images) which is by default exists in the system. If you want to resume chat with human/chat with robot, simply just click on the <b>Resume chat with Bot/Chat with human</b> button (see images).</small><br>
+								<small><i class="fa fa-caret-right"></i>  If you want to update the default templates, you can simply click on the button to update the default template (see the Fig-3).</small>
+							</p>
+							<div class="row">
+								<div class="col-xs-3">
+									<img src="assets/images/docs/chat_with_human_after.png" alt="" class="thumb">
+								</div>
+								<div class="col-xs-3">
+									<img src="assets/images/docs/chat_with_robot_after.png" alt="" class="thumb">
+								</div>
+								<div class="col-xs-6"><img width="100%" src="assets/images/docs/edit_human_template.PNG" alt="" class="thumb"></div>
+							</div>
+							
+					</div>
+				</div><br>
+			</section>
+
+			<section id="dltbot">
+				<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Delete Bot: </h3>
+							<small>If you want to delete an enabled bot from bot setting, you may delete bot by click on <b>Delete Bot</b> button. It will delete the bot from your bot settings list.</small><br><br>
+							<img src="assets/images/docs/dltbot.png" class="thumb" alt="">
+						</p>
+				</div><br>
+			</section>
+
+			<section id="markseen">
+				<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Enable Mark Seen: </h3>
+							<small>If you enable mark seen option then you'll able to see when your message was read.</small><br><br>
+							<img src="assets/images/docs/markseen.png" class="thumb" alt="">
+
+						</p>
+				</div><br>
+			</section>
+
+			<section id="typing">
+				<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Typing Settings: </h3>
+							<small>Typing Settings refers when a user type a message it'll show typing process in messanger during send a message and you can set a delay from typing setting for how much time the typing will appear or after hoe much time the message will be sent.</small><br><br>
+							<div class="row">
+								<div class="col-xs-3">
+									<img width="100%" src="assets/images/docs/typing_message.png" alt="" class="thumb">
+								</div>
+								<div class="col-xs-4">
+									<img width="100%" src="assets/images/docs/typing.png" class="thumb" alt="">
+								</div>
+								<div class="col-xs-5">
+									<img width="100%" src="assets/images/docs/typing_modal.PNG" class="thumb" alt="">
+								</div>
+							</div>
+						</p>
+				</div><br>
+			</section>
+
+			<section id="contact_location">
+				<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Contact & Location: </h3><br>
+							<small><i class="fa fa-caret-right"></i> You can get subscribers contact & Location information by setting a bot. First you've to set bot for user email,user phone, user location (see the below image). Select quick reply as template type and from the bottom give a name of button and select any of button type from button type field. [you can also add more button by click on add more button at the bottom right corner of the form.], whenever you get any email, location or phone number in messanger through bot setting, it'll be stored in your database.</small><br><br>			
+							<div class="row">
+								<div class="col-xs-6">
+									<img src="assets/images/docs/emailcontactlocations.png" alt="" class="thumb">
+								</div>
+								<div class="col-xs-6">
+									<img style="margin-left: 250px;" src="assets/images/docs/emailcontact.png" alt="" class="thumb">
+								</div>
+							</div>
+						</p>
+						<p>
+							<small><i class="fa fa-caret-right"></i> Click on the <b>Contact & Location</b> button to see your subscribers email/phone/location list. You can Download your subscribers email and phone numbers by click on <b>Download email & phone list</b> button. There are also three buttons through whom You can Update the default subscription template of email/phone/location (see the below image).</small><br>
+							<div class="row">
+								<div class="col-xs-5"><img src="assets/images/docs/c_loca.png" alt="" class="thumb"></div>
+								<div class="col-xs-7"><img width="100%" src="assets/images/docs/contactlist.PNG" alt="" class="thumb"></div>
+							</div>
+						</p>
+				</div><br>
+			</section>
+			<section id="subscribers">
+				<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Subscribers: </h3>
+							<small> After you setup bot and it starts replying people they will be your Messenger lead/subscriber. If you want to stop bot for any particular lead/subscriber and chat by yourself, simply click the "Stop Bot" button.</small><br><br>
+							<div class="row">
+								<div class="col-xs-5"><img src="assets/images/docs/subscriber.png" alt="" class="thumb"></div>
+								<div class="col-xs-7"><img width="100%" src="assets/images/docs/subsc11.png" alt="" class="thumb"></div>
+							</div>			
+						</p>
+				</div><br>
+			</section>
+			<section id="errorLog">
+				<div class="settings_head">
+						<p>
+							<h3><i class="fa fa-window-restore"></i> Error Log Report: </h3>
+							<small> If you Get any type errors, you can see the error at error log report menu. Click on <b>Error Log Report</b> button to see if there any error exists or not.</small><br><br>
+							<div class="row">
+								<div class="col-xs-5"><img src="assets/images/docs/errorlog.png" alt="" class="thumb"></div>
+								<div class="col-xs-7"><img width="100%" src="assets/images/docs/errorlogmodal.PNG" alt="" class="thumb"></div>
+							</div>			
+						</p>
+				</div><br>
+			</section>
+		</section>
+
+		<section id="postback_manager">
+			<a class="root_a"  href="#postback_manager"><h1><i class="fa fa-crosshairs"></i> Post-back Manager</h1></a><hr>
+			<p><i class="fa fa-info-circle"></i> Post-back Manager is the section Where you can create all of your post-back templates for post-back replies. Click on the <b>Post-back Manager</b> Menu to see the list of your post-back templates of post-back replies. You can also create new post-back template from here.</p>
+
+			<div class="row">
+				<div class="col-xs-12"><img src="assets/images/docs/postbackform.png" alt="" class="thumb"><br><br></div>
+			
+				<div class="col-xs-12"><p style="border-bottom: solid 1px #aaa;width: 17%;border-radius:5px;"><strong><i class="fa fa-bars"></i> How Post-back ID Works: </strong></p></div>
+				<div class="col-xs-6">
+					<small><i class="fa fa-info-circle"></i> If you create template, you can use that template in bot settings button from dropdown. In the top postback tab, that's for if you use any child postback id in templates. Otherwise templates can be selected from reply settings & if you choose button or quick reply in that dropdown for postback type. </small><br>
+					<p><small><i class="fa fa-info-circle"></i> In postback template when you are creating a postback reply template, this postback will come during BOT settings in drop down menu if you select button type as postback. And if you add any postback id as postback template's child , You can set the reply of that postback id from BOT settings -> Postback top menu. </small></p>
+					<div class="alert alert-danger">
+						<p><i class="fa fa-exclamation-circle"></i> <small>In Post-back Manager, When you're creating post-back templates for post-back replies, you have to give unique postback id and child post-back id for each template.</small></p>
+					</div>
+
+					
+				</div>
+				<div class="col-xs-6">
+					<iframe width="100%" height="300" src="https://www.youtube.com/embed/6taVkjG03fQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+			
+		<section id="cron_job_scheduler">
+			<a class="root_a"  href="#cron_job_scheduler"><h1><i class="fa fa-clock-o"></i> Cron Job/Scheduler</h1></a><hr>
+			<p><i class="fa fa-info-circle"></i> There are two cron jobs in <a href="https://codecanyon.net/item/msgbot-a-fb-inboxer-addon-multiaccount-multipage-facebook-messenger-chat-bot/21310533?s_rank=11">Botinboxer Add-on</a> that does two different tasks. Though these cron jobs are not mandatory to use botinboxer's features,but it will be needed to do some tasks if you need these. </p>
+			<ul>
+				<li>
+					<p> <b>Download Profile Pic [Every 2 hours]: </b><small>If you want to download your messenger bot subscribers profile picture then you have to set this cron job on your server. If you do not want to download subscriber profile pictures then you do not need this cron job.</small></p>
+
+					
+				</li>
+				<li>
+					<p> <b>Update Profile Information [Every 5 Minutes] : </b><small>If you want to migrate facebook lead from EZ Inboxer to Bot Inboxer subscriber, then you have to set this cron job on your server to get subscribers information.</small></p>
+				</li>
+			</ul>
+		</section>
+
+		<section id="resources">
+			<a class="root_a"  href="#resources"><h1><i class="fa fa-briefcase"></i> Quick Resources</h1></a><hr>
+			<p><i class="fas fa-gifts"></i> This is the place where you can see all the resources link in one place.</p>
+			<div class="row">
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#appset">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fa fa-facebook-official"></i> How to Set Facebook App</h4>
+						    </div>
+						</a>
+					    <div id="appset" class="panel-collapse collapse">
+					      	<div class="panel-body">
+								<iframe width="100%" height="400" src="https://www.youtube.com/embed/o_-lqnk8Bqk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      	</div>
+					      <!-- <div class="panel-footer">Panel Footer</div> -->
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#appsubmission">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fas fa-gift"></i> How to Submit Facebook App</h4>
+						    </div>
+						</a>
+					    <div id="appsubmission" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/rA-NawKkpFY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      <!-- <div class="panel-footer">Panel Footer</div> -->
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#business">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fa fa-briefcase"></i> Facebook APP Business Verification Process Best Practices</h4>
+						    </div>
+						</a>
+					    <div id="business" class="panel-collapse collapse">
+					      <div class="panel-body" style="padding: 15px;">
+					      	<p><i class="fa fa-info-circle"></i> For business verification of facebook App, Read the article on business verification best practice. Click On the below button to read the article.</p>
+					      	<a style="position:relative;left: 120px;" href="http://xeroneit.net/blog/facebook-app-business-verification-process-best-practice" class="btn btn-default"><strong style="color:#1b2450;text-align: center;">Business Verification Process</strong></a><br>
+					      </div>
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#postback">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fas fa-biohazard"></i> How Post-back Manager & Post-back ID Works</h4>
+						    </div>
+						</a>
+					    <div id="postback" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/6taVkjG03fQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#botsetting">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fa fa-snowflake-o"></i> Bot Settings</h4>
+						    </div>
+						</a>
+					    <div id="botsetting" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/QX-i1zC86fk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#Persistent">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fa fa-bars"></i> Persistent Menu</h4>
+						    </div>
+						</a>
+					    <div id="Persistent" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/O9dEP3jfbww" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#addlabel">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fas fa-tag"></i> How To Add Label to Segment List using Post Back(Need Messenger Broadcaster Add-on)</h4>
+						    </div>
+						</a>
+					    <div id="addlabel" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/LgfMGCm0RqA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#Welcome">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fas fa-american-sign-language-interpreting"></i> How to Set Welcome Screen Message</h4>
+						    </div>
+						</a>
+					    <div id="Welcome" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/TPCntfknIFA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>
+
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#migrate">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fab fa-modx"></i> Migrate old messenger leads from manychat, chatfuel or others into BOT Inboxer & EZ Inboxer</h4>
+						    </div>
+						</a>
+					    <div id="migrate" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/8neQqCx-PjM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-6">
+					<div class="panel-group">
+					  <div class="panel panel-default">
+					  	<a data-toggle="collapse" href="#humanchat">
+						    <div class="panel-heading">
+						     	<h4 class="panel-title"><i class="fas fa-user"></i> Chat With Human Notification Send to Email</h4>
+						    </div>
+						</a>
+					    <div id="humanchat" class="panel-collapse collapse">
+					      <div class="panel-body">
+					      	<iframe width="100%" height="400" src="https://www.youtube.com/embed/AEq1kM8J5D8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					      </div>
+					      
+					    </div>
+					  </div>
+					</div>
+				</div>
+			</div>
+			
+		</section>
+
+
+	</div>
+
+</body>
+</html>

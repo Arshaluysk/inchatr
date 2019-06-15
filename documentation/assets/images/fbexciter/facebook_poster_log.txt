@@ -1,0 +1,64 @@
+===========Files Log =============
+application/modules/ultrapost/controllers/Ultrapost.php
+application/modules/ultrapost/views/text_image_link_video_post/add_auto_post.php
+application/modules/ultrapost/views/text_image_link_video_post/edit_auto_post.php
+application/modules/ultrapost/views/text_image_link_video_post/auto_post_list.php
+application/modules/ultrapost/views/cta_post/add_cta_post.php
+application/modules/ultrapost/views/cta_post/edit_cta_post.php
+application/modules/ultrapost/views/cta_post/cta_post_list.php
+application/modules/ultrapost/views/carousel_slider_post/video_slider_poster.php
+application/modules/ultrapost/views/carousel_slider_post/edit_video_slider_poster.php
+application/modules/ultrapost/views/carousel_slider_post/slider_post_list.php
+
+
+
+=============sql===========
+ALTER TABLE `facebook_rx_cta_post` ADD `is_child` ENUM('0','1') NOT NULL DEFAULT '0' AFTER `error_mesage`;
+ALTER TABLE `facebook_rx_cta_post` ADD `parent_campaign_id` INT(11) NOT NULL AFTER `is_child`;
+ALTER TABLE `facebook_rx_cta_post` ADD `page_ids` TEXT NOT NULL AFTER `parent_campaign_id`;
+
+ALTER TABLE `facebook_rx_slider_post` ADD `is_child` ENUM('0','1') NOT NULL DEFAULT '0' AFTER `error_mesage`;
+ALTER TABLE `facebook_rx_slider_post` ADD `parent_campaign_id` INT(11) NOT NULL AFTER `is_child`;
+ALTER TABLE `facebook_rx_slider_post` ADD `page_ids` TEXT NOT NULL AFTER `parent_campaign_id`;
+
+
+
+
+ALTER TABLE `facebook_rx_auto_post` ADD `repeat_times` INT(11) NOT NULL AFTER `is_autopost`, ADD `time_interval` INT(11) NOT NULL AFTER `repeat_times`;
+ALTER TABLE `facebook_rx_cta_post` ADD `repeat_times` INT(11) NOT NULL AFTER `ultrapost_auto_reply_table_id`, ADD `time_interval` INT(11) NOT NULL AFTER `repeat_times`;
+ALTER TABLE `facebook_rx_slider_post` ADD `repeat_times` INT(11) NOT NULL AFTER `ultrapost_auto_reply_table_id`, ADD `time_interval` INT(11) NOT NULL AFTER `repeat_times`;
+
+ALTER TABLE `facebook_rx_auto_post` ADD `full_complete` ENUM('0','1') NOT NULL AFTER `time_interval`;
+ALTER TABLE `facebook_rx_auto_post` ADD `schedule_type` ENUM('now','later') NOT NULL AFTER `full_complete`;
+
+
+
+ALTER TABLE `facebook_rx_cta_post` ADD `schedule_type` ENUM('now','later') NOT NULL AFTER `time_interval`;
+ALTER TABLE `facebook_rx_cta_post` ADD `full_complete` ENUM('0','1') NOT NULL AFTER `schedule_type`;
+
+ALTER TABLE `facebook_rx_slider_post` ADD `schedule_type` ENUM('now','later') NOT NULL AFTER `time_interval`;
+ALTER TABLE `facebook_rx_slider_post` ADD `full_complete` ENUM('0','1') NOT NULL AFTER `schedule_type`;
+
+
+
+
+report of CTA Poster
+report of Video Slide Show/Carousel Post
+report of Text/Image/Link/Video Poster
+Only parent campaign has shown  report
+This is main campaign, if you want to delete it, rest of the sub campaign will be deleted.Do you really want to delete this post from our database?
+not all completed
+main campaign
+single campaign
+sub campaign
+Repost This Post
+times
+Time Interval
+
+
+
+
+
+
+
+

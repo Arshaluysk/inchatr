@@ -1,0 +1,5 @@
+.hidemeplz,.main-header,.main-sidebar,.main-footer{display: none !important}
+.sidebar-mini.sidebar-collapse .content-wrapper, .sidebar-mini.sidebar-collapse .right-side, .sidebar-mini.sidebar-collapse, .main-footer{margin-left:0 !important;}
+.content-wrapper{background: #fff !important;border-left: none !important;box-shadow: none !important;margin:0 !important;width: 100% !important;}
+#add_bot_settings_modal .modal-body{border:1px solid #ccc !important;}
+.main-sidebar{display: none !important;}

@@ -1,0 +1,206 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Drip Messaging</title>
+	
+	<meta name="description" content="Sends bulk message to all subscribers in seconds">
+	<meta name="author" content="">
+	<meta name="copyright" content="">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2018-01-24T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="../thumb.png" />
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;line-height: 30px;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		/* #documenter_sidebar #documenter_logo{background-image:url(assets/images/logo.png);} */
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.thumbnail{border:1px solid #aaa;padding:5px;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#fff;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE; text-align: left;padding-left:10px;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+		#documenter_sidebar ul li ul li a {  text-align: left;padding-left:30px;}
+		img.thumb{border:1px solid #ccc;}
+	</style>
+	
+</head>
+<body class="documenter-project-FBInboxer">
+	<div id="documenter_sidebar">
+
+		<a href="#documenter_cover" id="documenter_logo"><center><img src="../thumb.png" style="width: 130px"></center></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#about" title="What is Drip Messaging ?">About</a></li>	
+			<li><a href="#installation" title="How to Install">How to Install?</a></li>
+			<li><a href="#facebook_api" title="Facebook API Settings">Facebook App Approval</a></li>
+			<li><a href="#eligible_pages" title="Drip Messaging Setup">Drip Messaging Setup</a></li>
+			<li><a href="#message_sent_log" title="Enable BotMessage Sent Log">Message Sent Log</a></li>
+			<li><a href="#cron_job" title="Bot Settings">Cron Job</a></li>
+		</ul>
+		
+	</div>
+	<div id="documenter_content">
+
+	<section id="documenter_cover">
+		<h1>Drip Messaging : Send Sequencial Message to Messenger Bot Subscriber <br> A BOT Inboxer Add-on</h1>
+		<div id="documenter_buttons">
+			
+		</div>
+		<hr>
+		<ul>
+		<li>Created: 4th Sep 2018</li>
+		<li>Latest update: 8th Nov 2018</li>
+		<li>Contact Email: <a href="info@xeroneit.net/">info@xeroneit.net</a></li>
+		<li>Developed by : <a href="http://xeroneit.net">XerOne IT</a></li>
+		</ul>
+	</section>
+
+	<section id="about">
+		<div class="page-header"><h3>What is Drip Messaging?</h3><hr class="notop"></div>
+		Drip Messaging is a marketing strategy that sends, or "drips," a pre-written set of messages to messenger bot subscribers over time.
+		Messenger Drip Campaigner is an add-on of BOT Inboxer , that can send non-promotional structured sequential message to Facebook page’s messenger bot subscriber over time (day-1 to day-30). This is using BOT API for sending message.The subscribers will be assigned under your drip campaign automatically based on their entry point, however you can also assign manually or change the campaign. 
+		<br><br>		
+	</section>
+
+	<h3>It is not a standalone app, get BOT Inboxer (<a href="https://codecanyon.net/item/bot-inboxer-standalone-multiaccount-multipage-facebook-messenger-chat-bot/22285301">standalone</a> or <a href="https://codecanyon.net/item/msgbot-a-fb-inboxer-addon-multiaccount-multipage-facebook-messenger-chat-bot/21310533">add-on</a>) to use this add-on.</h3>
+
+	<section id="installation">
+		<div class="page-header"><h3>How to Install?</h3><hr class="notop"></div>
+			<ul>
+		 	<li><b>Drip Messaging  is not a standalone app. As we already mentioned, it is an add-on of Bot Inboxer</a>. So first requirement of installting Drip Messaging  is to get & install Bot Inboxer (standalone or addon):</b></li>
+		 	<li>Installting Drip Messaging  is just few clicks easy. </li>
+		 	<li>Login to your <b>EZ Inboxer or Bot Inboxer Standalone</b> admin panel, go to <b>Add-ons</b> menu and click <b>Upload New Add-on</b> and upload Drip Messaging  Zip File.<br><br>
+		 	<img src="assets/images/1.png" class='thumb'>
+		 	<img src="assets/images/2.png" class='thumb'><br><br>
+
+		 	</li>
+		 	<li>Now add-on has been uploaded and all you need to do is to activate the add-on using the purchase code and it's done :)<br><br>
+		 	<img src="assets/images/3.png" class='thumb'><br><br>
+		 	<img src="assets/images/4.png" class='thumb'>
+
+		 	</li>
+				
+			</ul>
+	</section>
+
+	<section id="facebook_api">
+		<div class="page-header"><h3>Facebook App Approval</h3><hr class="notop"></div>
+		Drip Messaging will require <b>SubScription Messaging</b> approval for each page
+		<br>
+		<br>
+
+		Go to you page and click settings<br><img src="assets/images/s1.png" class='thumb' style="width:100%"><br><br>
+		<table>
+			<tr>
+				<td>
+					Scroll down and to advanced messaging features & click request<br><img src="assets/images/s2.png"  class="thumbnail" style="width:95%">
+				</td>
+				<td>
+					Fill the form follwing the video below and click submit for review<br><img src="assets/images/s3.png" class="thumbnail"  style="width:95%">
+				</td>
+			</tr>
+		</table>	
+		
+		
+		<h4>Subscription Messaging Approval Tutorial</h4>
+		<iframe width="600" height="380" src="https://www.youtube.com/embed/5zUq06iL7Mw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				
+	</section>
+
+	<section id="eligible_pages">
+		<div class="page-header"><h3>Drip Messaging Setup</h3><hr class="notop"></div>	
+		<img src="assets/images/s4.png"><br><br>
+
+		You can see your pages approval status, page message sent log and your bot subscriber list here.
+
+		<p><b>Check Review Status:</b> It will check if the page have subscription messaging permission or not.</p>
+		<p>&nbsp;</p>
+
+		<p><b>Message sent log:</b> This will show you list of all message sent from this page and also current status of messages.</p>		
+		<p>&nbsp;</p>
+
+		<p><b>Subscriber list:</b> Here you see the subscriber list and see wich subscriber is under which drip campaign. Also you can assign campaign to a specific subscriber manually.</p>
+		<img src="assets/images/s6.png"><br><br>
+		<img src="assets/images/s7.png"><br>
+		<p>&nbsp;</p>
+
+		<p><b>Drip Message Campaign List:</b> Here you can see the exisiting campaigns of a specific page and can add/edit/delete campaign. The campaign list will also show detailed day-wise report of each campaign.</p>
+
+		<p>
+		<b>Add Camapign:</b> Adding campaign is very easy , just choose campaign type and message template for the days you want. You can add upto 30 days.
+		There are total 8 drip campaign types. Please note that if you do not have <a href="https://codecanyon.net/item/messenger-engagement-a-bot-inboxer-addon-a-power-pack-of-5-messenger-engagement-tools/22364308">Messenger Engagement</a> addon then you will only get two drip types : default & campaign. Every page must have default campaign and multiple default campaigns are not allowed. You can add multiple campaigns of other drip types. Custom drip campaigns can be useful for assign campaign to subscribers manually.	</p>
+		<img src="assets/images/s8.png"><br>
+		<img src="assets/images/s9.png"><br>
+		<img src="assets/images/s10.png"><br>
+		<img src="assets/images/s11.png"><br>
+		
+		<p>&nbsp;</p>
+
+	</section>
+
+	<section id="message_sent_log">
+		<div class="page-header"><h3>Message Sent Log</h3><hr class="notop"></div>
+		<p>This will show you list of all message sent from all page and also current status of messages. You can filter by page and drip campaign.</p>
+		<img src="assets/images/s5.png"><br>
+	</section>
+
+
+	<section id="cron_job">
+		<div class="page-header"><h3>Cron Job</h3><hr class="notop"></div>
+		Drip message is cron job based message sending. You must setup the cron job command for every 5 minutes. You will find the cron job menu containing cron job command inside the the addon.
+		<p>Cron job command will like something like this:</p>
+		<p>curl https://example.com/drip_messaging/drip_messaging_cron/PUT_API_KEY</p>
+	</section>
+
+
+
+
+	</div>
+</body>
+</html>
